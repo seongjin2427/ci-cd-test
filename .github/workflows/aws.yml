@@ -39,7 +39,7 @@ env:
     prostargram-fe-task # set this to the path to your Amazon ECS task definition
     # file, e.g. .aws/task-definition.json
   CONTAINER_NAME:
-    ci-cd-test # set this to the name of the container in the
+    node # set this to the name of the container in the
     # containerDefinitions section of your task definition
 
 permissions:
