@@ -85,5 +85,5 @@ jobs:
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
           service: service-ci-cd
-          cluster: cluster-ci-cd
+          cluster: cluster-ci-cd-test
           wait-for-service-stability: false
